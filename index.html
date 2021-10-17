@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--==================== UNICONS ====================-->
+      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">      
+      
+      <!--==================== EMBED ====================-->
+      <link rel="icon" href="favicon.ico">
+
+      <meta property="og:type"
+            content="website">
+      <meta property="theme-color"
+            content="#2F3136">  
+      <meta name="og:title"
+            content="Bonfire">
+      <meta name="og:description"
+            content="A Welcoming Community!">     
+      <meta name="og:image"
+            content="https://imgur.com/OO2t0n8">
+      <meta name="og:icon"
+            content="favicon.ico">
+      <meta name="og:thumbnail"
+            content="https://imgur.com/OO2t0n8">    
+               
+      <!--==================== CSS ====================-->
+      <link rel="stylesheet" href="assets/css/style.css">
+
+      <title>Bonfire</title>
+    </head>
+    <body>
+	  <div id="overlay" style="width: 100%; height: 100%; position: absolute;"></div>
+	  <script>
+		var typedCharacters = '';
+		document.body.addEventListener('keydown', (event) => {
+			var sus = 'sus';
+			if (sus.includes(event.key)) {
+				typedCharacters += event.key;
+
+				var random = { x: Math.floor(Math.random() * (600 - 0) + 0), y: Math.floor(Math.random() * (1000 - 0) + 0)}
+				if (typedCharacters.endsWith(sus)) {
+					document.getElementById('overlay').innerHTML += `<img style="height: 25px; position: relative; top: ${random.y}px; left: ${random.x}px; z-index: 0;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Fversus-compendium%2Fimages%2F5%2F5f%2FImpostor.png%2Frevision%2Flatest%3Fcb%3D20200912190532&f=1&nofb=1"></img>`;
+				}
+			}
+		});
+	  </script>
+
+
+      <a href="#" class="scrolltop" id="scroll-top">
+        <i class="uil uil-arrow-up scrolltop-icon"></i>
+      </a>      
+
+        <!--========== HEADER ==========-->
+        
+        <div class="header" id="header">
+          <div class="nav bd-container">
+              <a href="#" class="logo">Bonfire</a>
+
+              <div class="menu" id="menu">
+                  <ul class="list">
+                      <li class="item"><a href="#home" class="link active-link">Home</a></li>
+                      <li class="item"><a href="#team" class="link">Team</a></li>
+                      <li class="item"><a href=" https://discord.gg/VcgHEbcTWR" class="link">Minecraft</a></li>
+                  </ul>
+              </div>
+
+              <div class="toggle" id="toggle">
+                  <i class="uil uil-apps"></i>
+              </div>
+
+          </div>
+      </div>
+
+        <!--========== HOME ==========-->
+
+      <section class="home" id="home">
+          <div class="home-container bd-container bd-grid">
+
+              <div class="data">
+                  <h1 class="title">The Bonfire Network...</h1>
+                  <p class="description">
+                    We're a Discord and Minecraft Network focused on bringing everyone together. No matter who you are, what you identify with, or where you come from, you are welcome here!
+                  </p>
+                  <div class="buttons">
+                    <a href="" class="button button-flex">
+                      Join the Discord <i class="uil uil-arrow-right button-icon"></i>
+                    </a>
+                    <a href="#about" class="non-button button-flex">Learn more</a>
+                  </div>
+              </div>
+
+          </div>
+      </section>
+
+
+        <!--========== FEATURES ==========-->
+      
+      <section class="features" id="about">
+        
+        <div class="featureCard">
+          <svg class="topWave" width="1919" height="77" viewbox="0 0 1919 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 25.6667L107.144 21.3889C212.689 17.1111 426.977 8.55556 639.667 17.1111C852.356 25.6667 1066.64 51.3333 1279.33 51.3333C1492.02 51.3333 1706.31 25.6667 1811.86 12.8333L1919 0V77H1811.86C1706.31 77 1492.02 77 1279.33 77C1066.64 77 852.356 77 639.667 77C426.977 77 212.689 77 107.144 77H0V25.6667Z" fill="#0E1218"/>
+          </svg>
+            
+          <div class="featureContainer" tag="waveContainer">  
+              
+            <img class="featureContainerImage ar mr" src="assets/img/svg/welcome.png"/>
+            <div class="featureContainerText ar">
+              <p class="featureContainerTextTitle">
+                Welcoming community!
+              </p>
+              <p class="featureContainerTextDescription">
+                No matter where you’re from or what community you belong to, we’ll always welcome you  and look forward to a great time together!
+              </p>
+            </div>
+          </div> 
+  
+          <svg class="bottomWave" width="1919" height="77" viewbox="0 0 1919 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M1919 51.3333L1811.86 55.6111C1706.31 59.8889 1492.02 68.4444 1279.33 59.8888C1066.64 51.3333 852.356 25.6666 639.667 25.6666C426.978 25.6665 212.689 51.3332 107.144 64.1665L0 76.9998L6.73155e-06 -0.000167764L107.144 -0.000158397C212.689 -0.00014917 426.978 -0.000130437 639.667 -0.000111843C852.356 -9.3249e-05 1066.64 -7.45153e-05 1279.33 -5.59214e-05C1492.02 -3.73276e-05 1706.31 -1.85939e-05 1811.86 -9.36684e-06L1919 0L1919 51.3333Z" fill="#0E1218"/>
+          </svg>
+        </div>
+
+        <div class="featureContainer spacing">
+          
+          <img class="featureContainerImage al mr dram" src="assets/img/svg/stage.svg">
+          <div class="featureContainerText al">
+            <p class="featureContainerTextTitle">
+              Monthly Events!
+            </p>
+            <p class="featureContainerTextDescription">
+              We host monthly events to help bring everyone together and have a good time.
+            </p>
+          </div>  
+
+          <img class="featureContainerImage al ml ram fix" src="assets/img/svg/stage.png">
+
+        </div>
+
+
+        <div class="featureCard">
+          <svg class="topWave" width="1919" height="77" viewbox="0 0 1919 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 25.6667L107.144 21.3889C212.689 17.1111 426.977 8.55556 639.667 17.1111C852.356 25.6667 1066.64 51.3333 1279.33 51.3333C1492.02 51.3333 1706.31 25.6667 1811.86 12.8333L1919 0V77H1811.86C1706.31 77 1492.02 77 1279.33 77C1066.64 77 852.356 77 639.667 77C426.977 77 212.689 77 107.144 77H0V25.6667Z" fill="#0E1218"/>
+          </svg>
+
+          <div class="featureContainer" tag="waveContainer">
+          
+            <img class="featureContainerImage ar mr" src="assets/img/svg/support.png"/>
+            <div class="featureContainerText ar">
+              <p class="featureContainerTextTitle">
+                Quick  & reliable help!
+              </p>
+              <p class="featureContainerTextDescription">
+                Our Moderation Team gives their best to always be there for you and help with everything regarding the network. You can reach us at BonfireMessage@outlook.com and on our Discord Server.
+              </p>
+            </div>
+          </div>
+
+          <svg class="bottomWave" width="1919" height="77" viewbox="0 0 1919 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M1919 51.3333L1811.86 55.6111C1706.31 59.8889 1492.02 68.4444 1279.33 59.8888C1066.64 51.3333 852.356 25.6666 639.667 25.6666C426.978 25.6665 212.689 51.3332 107.144 64.1665L0 76.9998L6.73155e-06 -0.000167764L107.144 -0.000158397C212.689 -0.00014917 426.978 -0.000130437 639.667 -0.000111843C852.356 -9.3249e-05 1066.64 -7.45153e-05 1279.33 -5.59214e-05C1492.02 -3.73276e-05 1706.31 -1.85939e-05 1811.86 -9.36684e-06L1919 0L1919 51.3333Z" fill="#0E1218"/>
+          </svg>
+        </div>
+
+      </section>
+
+        <!--========== TEAMS ==========-->
+
+      <section class="team" id="team">
+
+        <div class="sectionCenter">
+          <h2 class="section_title">TEAM</h2>
+        </div>
+
+        <div class="teamMembersWrapper">  
+          
+          <div class="arrowLeft" onclick="cycleTeamMember(true)">
+              <i class="uil uil-arrow-left arrowIcon"></i>
+          </div>
+
+          <div class="teamMemberCard" id="teamMemberCard">
+              <div class="teamMemberCardBanner" id="teamMemberCardBanner" style="background-image: url();">
+                  <img src=" " class="teamMemberCardAvatar" id="teamMemberCardAvatar" alt=" ">
+              </div>
+              <div class="teamMemberCardTextBox">
+                  <h3 class="teamMemberCardRole" id="teamMemberCardRole"></h3>
+                  <div class="teamMemberCardTitle" id="teamMemberCardTitle"></div>
+                  <h2 class="teamMemberCardName" id="teamMemberCardName">
+                      
+                      <span class="teamMemberCardTag" id="teamMemberCardTag"></span>
+                  </h2>
+                  <div class="teamMemberCardDescription" id="teamMemberCardDescription"></div>
+              </div>
+          </div>
+          
+          <div class="arrowRight" onclick="cycleTeamMember()">
+              <i class="uil uil-arrow-right arrowIcon"></i>
+          </div>
+
+          <div class="arrowContainer som">
+            <i class="uil uil-arrow-left arrowIcon" onclick="cycleTeamMember(true)"></i>
+            <i class="uil uil-arrow-right arrowIcon" onclick="cycleTeamMember()"></i>
+          </div> 
+        </div>
+      </section>
+
+
+        <!--========== FOOTER ==========-->
+
+        <div class="footer" id="footer">
+          <div class="footer-container bd-container bd-grid">
+
+              <div class="footer-data">
+                  <h3 class="footer-title">
+                      <a href="#" class="footer-logo">Bonfire</a>
+                  </h3>
+                  <p class="footer-description">
+                      &copy; Bonfire Network 2021. All Rights Reserved.  
+                  </p>
+
+                  <div class="footer-socials">
+                      <a href="https://discord.gg/STf6A5N8MV" target="_blank">
+                        <svg width="25" height="25" viewbox="0 0 48 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M40.6545 3.01808C37.4966 1.58338 34.1684 0.573835 30.7539 0C30.2883 0.831136 29.8613 1.68217 29.4845 2.55312C25.8517 2.01861 22.149 2.01861 18.5138 2.55312C18.1274 1.68217 17.7028 0.831139 17.2372 0.0098336C13.8106 0.583907 10.4824 1.59321 7.32454 3.02816C1.04727 12.2014 -0.646767 21.1568 0.205074 29.9736C3.87881 32.6552 7.98683 34.6937 12.354 36C13.3355 34.6937 14.2065 33.2987 14.9504 31.8438C13.5322 31.3195 12.1573 30.6763 10.8495 29.9043C11.1975 29.6572 11.5334 29.4097 11.8597 29.1325C19.5528 32.7148 28.4455 32.7148 36.1408 29.1325C36.4672 29.3998 36.8032 29.6572 37.1392 29.9043C35.8338 30.6664 34.4564 31.3195 33.0406 31.8438C33.7942 33.2987 34.6556 34.684 35.6346 35.9901C40.0019 34.684 44.1099 32.6455 47.7836 29.9639H47.7956C48.7938 19.7516 46.092 10.8851 40.6545 3.01808ZM16.0254 24.5489C13.657 24.5489 11.7062 22.4015 11.7062 19.7892C11.7062 17.1769 13.609 15.0295 16.0254 15.0295C18.4418 15.0295 20.3806 17.1769 20.3422 19.7892C20.3422 22.4015 18.4298 24.5489 16.0254 24.5489ZM31.9682 24.5489C29.5997 24.5489 27.6489 22.4015 27.6489 19.7892C27.6489 17.1769 29.5613 15.0295 31.9682 15.0295C34.3724 15.0295 36.3232 17.1769 36.2848 19.7892C36.2848 22.4015 34.3724 24.5489 31.9682 24.5489Z"/>
+                        </svg>
+                      </a>
+                  </div>
+              </div>
+
+              <div class="footer-data">
+                  <h3 class="footer-title">Resources</h3>
+                  <ul>
+                      <li><a href="https://discord.gg/wQtJZb6TT4" class="footer-link">Events Server</a></li>
+                      <li><a href="https://discord.gg/VcgHEbcTWR" class="footer-link">Minecraft Server</a></li>
+                      <li><a href="mailto:BonfireManagement@outlook.com" class="footer-link">Email</a></li>
+                  </ul>
+              </div>
+
+              <div class="footer-data">
+                  <h3 class="footer-title">Other</h3>
+                  <ul>
+                      <li><a href="#" class="footer-link blocked">Affiliates</a></li>
+                  </ul>
+              </div>
+
+          </div>
+
+      </div>
+
+
+        <!--========== TWEMOJI ==========-->        
+        <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/script.js" async defer></script>
+
+        <!--========== SCROLLREVEAL ==========-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+    </body>
+</html>
