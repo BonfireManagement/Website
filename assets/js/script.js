@@ -64,7 +64,7 @@ var teamMemberArray = [
         discriminator: '4413',
         description: `<div class="hey">I am Yousuf, I am a bossman and no one messes with me.
         <div class="drago"><a href="#"><img src="assets/img/hoponamongus.gif" class="monkey" alt=""></a></div></div>`,
-        role: 'Founder',
+        role: 'Owner',
         avatar: 'assets/img/team/avatars/ben.png',
         banner: ''
     },
@@ -91,7 +91,7 @@ var teamMemberArray = [
         username: '🦑🐸Zulaski💖Kaitzo🧀🍊',
         discriminator: '0666',
         description: '👋 My name is Kaitzo Zulaski. Im 21 years old. I manage the Minecraft server.',
-        role: 'Administrator',
+        role: 'Administrator/Developer',
         avatar: 'assets/img/team/avatars/qynx.png',
         banner: ''
     }, 
@@ -114,10 +114,10 @@ var teamMemberArray = [
         banner: ''
     },   
     {
-        title: 'Saampiee',
-        username: '',
-        discriminator: '0664',
-        description: 'Hi! The names Saampiee. I helped create the Bonfire Network, and will continue to moderate it. ',
+        title: 'Luca',
+        username: 'lucaiscool',
+        discriminator: '0734',
+        description: 'sus',
         role: 'Moderator',
         avatar: 'assets/img/team/avatars/grammsay.gif',
         banner: ''
