@@ -117,7 +117,7 @@ var teamMemberArray = [
         title: 'Luca',
         username: 'lucaiscool',
         discriminator: '0734',
-        description: 'sus',
+        description: 'fullstack developer that specialises in PHP and JS but with experience in <i>alot</i> more',
         role: 'Moderator',
         avatar: 'assets/img/team/avatars/luca.png',
         banner: ''
