@@ -119,7 +119,7 @@ var teamMemberArray = [
         discriminator: '0734',
         description: 'sus',
         role: 'Moderator',
-        avatar: 'assets/img/team/avatars/grammsay.gif',
+        avatar: 'assets/img/team/avatars/luca.png',
         banner: ''
     }
 ];
